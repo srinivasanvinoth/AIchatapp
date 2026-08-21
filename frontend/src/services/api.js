@@ -1,6 +1,6 @@
 const API_URL =
     import.meta.env.VITE_API_URL ||
-    "http://localhost:8000";
+    "http://ai-chat-backend-alb-32371621.ap-south-1.elb.amazonaws.com";
 
 
 function getToken() {
